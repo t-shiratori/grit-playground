@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@getgrit/cli": "0.1.0-alpha.1738896512",
     "typescript": "~5.7.2",
     "vite": "^6.1.0"
-  }
+  },
+  "packageManager": "pnpm@10.3.0"
 }

@@ -1,0 +1,15 @@
+version: 0.0.1
+patterns:
+  - name: github.com/getgrit/stdlib#*
+  - name: console_error
+    tags: ["console"]
+    level: info
+    body: |
+      `console.log($my_message)` => `console.error($my_message)`
+    description: |
+      console.log() を console.error() に書き直す
+    samples:
+      - input: |
+          console.log("test")
+        output: |
+          console.error("test")
