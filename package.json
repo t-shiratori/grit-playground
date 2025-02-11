@@ -6,7 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "g:l": "grit list",
+    "g:la": "grit list",
+    "g:ll": "grit list --source local",
+    "g:lu": "grit list --source user",
+    "g:c": "grit check",
+    "g:ap": "grit apply",
+    "g:t": "grit patterns test"
   },
   "devDependencies": {
     "@getgrit/cli": "0.1.0-alpha.1738896512",
